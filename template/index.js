@@ -10,7 +10,7 @@
  * @Author: guozhikun
  * @Date: 2019-12-04 10:57:38
  * @LastEditors: guozhikun
- * @LastEditTime: 2019-12-04 15:19:23
+ * @LastEditTime: 2019-12-04 15:28:21
  */
 module.exports = (api, options, rootOptions) => {
     // 安装一些基础公共库
@@ -30,7 +30,7 @@ module.exports = (api, options, rootOptions) => {
           vuex: '^3.0.1'
         }
       });
-      //api.render('./vuex');
+      api.render('./vuex');
     };
   
     // 安装 element-ui 库
