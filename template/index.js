@@ -10,7 +10,7 @@
  * @Author: guozhikun
  * @Date: 2019-12-04 10:57:38
  * @LastEditors: guozhikun
- * @LastEditTime: 2019-12-04 15:34:27
+ * @LastEditTime: 2019-12-04 15:40:39
  */
 module.exports = (api, options, rootOptions) => {
     // 安装一些基础公共库
@@ -53,12 +53,11 @@ module.exports = (api, options, rootOptions) => {
     //引入基础模板
     if (options.appType == 'system'){
       api.render('./default');
-      api.render('./src/components');
     }
   
      
     // 公共基础目录和文件
-    api.render('./src');
+    api.render('./src/components');
     
     //api.render('./template/default');
   
