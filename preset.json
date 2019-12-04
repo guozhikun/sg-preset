@@ -1,0 +1,19 @@
+ 
+{
+    "useConfigFiles": true,
+    "cssPreprocessor": "less",
+    "router": false,
+    "vuex": false,
+    "plugins": {
+        "@vue/cli-plugin-babel": {
+            "version": "^3.0.0"
+          }
+    },
+    "configs": {
+        "vue": {
+            "baseUrl": "/",
+            "outputDir": "dist",
+            "assetsDir": "static"
+        }
+    }
+}
