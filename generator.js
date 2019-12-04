@@ -10,16 +10,16 @@
  * @Author: guozhikun
  * @Date: 2019-12-04 10:57:38
  * @LastEditors: guozhikun
- * @LastEditTime: 2019-12-04 14:55:24
+ * @LastEditTime: 2019-12-04 15:45:28
  */
 module.exports = (api, options, rootOptions) => {
   // 安装一些基础公共库
   api.extendPackage({
     dependencies: {
-        "axios": "^0.18.0",
+      //  "axios": "^0.18.0",
     },
     devDependencies: {
-        "mockjs": "^1.0.1-beta3"
+      //  "mockjs": "^1.0.1-beta3"
     }
   });
   //根据用户构建要求安装相关库
